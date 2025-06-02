@@ -12,7 +12,7 @@ export default function CodeEditor({ value, onChange }: Props) {
   return (
     <div className="border rounded-md overflow-hidden h-[500px]">
       <Editor
-        height="100%"
+        height="100vh"
         defaultLanguage="html"
         defaultValue={value}
         value={value}
